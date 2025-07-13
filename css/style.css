@@ -337,7 +337,87 @@ ul li a {
 
 /*  */
 
+#backpack {
+    padding-bottom: 98px;
+}
+
 .backpack img {
   width: 300px;
   margin-bottom: 20px;
+}
+
+
+/* touch */
+
+.touch {
+    padding: 70px 0;
+}
+
+.touch-container {
+    background-color: #FFF2F1;
+    padding: 145px 0;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.touch-container h2 {
+    color: #1F1F1F;
+    font-size: 30px;
+}
+
+.touch-container-content-description {
+    color: #707070;
+    margin-bottom: 16px;
+}
+
+.touch-container form {
+    position: relative;
+}
+
+.touch-container form input {
+    padding: 22px 32px;
+    background-color: #fff;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border: none;
+    outline: none;
+    width: 685px;
+}
+
+.touch-container form input::placeholder {
+    font-size: 24px;
+    color: #CCCCCC;
+}
+
+.touch-container form a {
+    background-image: linear-gradient(#FF589B, #FF136F);
+    color: #fff;
+    padding: 14px 32px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-transform: capitalize;
+    font-size: 24px;
+}
+
+/* Footer */
+
+footer .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
 }
